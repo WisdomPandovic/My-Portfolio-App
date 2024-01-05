@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial,sans-serif;
+}
+    
+
+.text-overlay a.btn {
+    font-size: 1.2em;
+}
+
+.bg-image {
+    height:100vh;
+    background: url('./images/DSC_0279LR.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.my-name {
+    font-size: 35px;
+}
+.my_desc {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-btn {
+    margin-top: 20px; 
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.about-section {
+    padding: 80px 0; 
+}
+
+.about-text,
+.resume-text {
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color:#292929 
+}
+
+.resume-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-text p,
+.resume-text p {
+    font-size: 16px;
+    color: #555; 
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-xind{
+    background-color:#292929 ;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer .btn-footer{
+    background-color:transparent ;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 0;
+}
+
+.web-skills{
+    margin-top: 50px;
+}
+
+.skills-section {
+    padding: 80px 0; 
+    background-color:#292929 ;
+    color: #fff;
+}
+
+.skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-section p {
+    font-size: 16px;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.left-content h3,
+.right-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.left-content p,
+.right-content ul {
+    font-size: 16px;
+    /* color: #555;  */
+}
+
+.right-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-content ul li {
+    margin-bottom: 10px;
+}
+
+.right-content h3 {
+    color: #007bff; 
+}
+
+.skill-item {
+    color: black;
+}
+
+.sub-skill {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.skill-item .level-low {
+    background-color: #969289;
+    padding: 10px;
+}
+
+.black{
+    color: #292929;
+}
+
+.sub-skill.level-high {
+    background-color: #959188; 
+    color: #E0DFDB; 
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-skill.level-low {
+    background-color: #E0DFDB; 
+    color: #E0DFDB; 
+}
+
+.sub-skill.level-medium {
+    background-color: #fff; 
+    color: #fff; 
+    padding: 10px;
+}
+
+.no-gap p {
+    font-size: 0;
+}
+
+.no-gap .sub-skill {
+    font-size: 16px; 
+}
+
+.fixed-height {
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.fa-twitter{
+    margin-bottom: 30px;
+}
+
+.contact-icon{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+
+        .bg-image {
+       margin-top: 30px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 19px;
+    }
+    .sub-skill.level-high, .sub-skill.level-low, .sub-skill.level-medium {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bg-image {
+        margin-top: 80px;
+     }
+
+     footer .btn-footer {
+        margin: 50px 0px;
+     }
+
+}
