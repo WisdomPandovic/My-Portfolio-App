@@ -2,10 +2,15 @@
 
 Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and contact information.
 
+## Live Demo
+
+Explore the live demos of my portfolio:
+
+- [Live Demo Link](https://my-portfolio-app-chi.vercel.app)
+
 ## Table of Contents
 
 - [About Me](#about-me)
-- [Projects](#projects)
 - [Skills](#skills)
 - [Contact](#contact)
 - [Getting Started](#getting-started)
@@ -14,26 +19,6 @@ Welcome to my personal portfolio repository! This portfolio showcases my skills,
 ## About Me
 
 I am Wisdom Onwuchekwa, a passionate and dedicated web developer and designer. With a keen eye for design and a strong foundation in web development technologies, I create engaging and user-centric digital experiences.
-
-## Projects
-
-### Nigeria Fashion Kings
-
-![Nigeria Fashion Kings](./images/nigeria-fashion-kings.jpg)
-
-Introducing a fashion website that spotlights the cutting-edge fashion trends, standout models, and influential figures in the fashion industry. Visit the live project [here](https://nigeria-fashion-kings.vercel.app).
-
-### Miles King Photography
-
-![Miles King Photography](./images/miles-king-photography.jpg)
-
-A photography portfolio website dedicated to showcasing the impressive body of work by Miles King. Explore the artist's profile and browse through a diverse collection of captivating photographs. Visit the live project [here](https://wisdompandovic.github.io/Miles-King-Photography).
-
-### Scholarship Website
-
-![Scholarship Website](./images/scholarship-website.jpg)
-
-A platform connecting deserving students with life-changing scholarship opportunities. Visit the live project [here](https://scholarship-app-website.vercel.app/index.html).
 
 ## Skills
 
