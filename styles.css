@@ -208,21 +208,6 @@ footer .btn-footer{
     color: #fff;
 }
 
-@media (max-width: 500px) {
-
-        .bg-image {
-       margin-top: 30px;
-    }
-
-    .navbar-brand h1 {
-        font-size: 19px;
-    }
-    .sub-skill.level-high, .sub-skill.level-low, .sub-skill.level-medium {
-        font-size: 12px;
-    }
-
-}
-
 @media (max-width: 768px) {
 
     .hero-text {
@@ -239,5 +224,20 @@ footer .btn-footer{
      footer .btn-footer {
         margin: 50px 0px;
      }
+
+}
+
+@media (max-width: 500px) {
+
+        .bg-image {
+       margin-top: 30px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 19px;
+    }
+    .sub-skill.level-high, .sub-skill.level-low, .sub-skill.level-medium {
+        font-size: 12px;
+    }
 
 }
